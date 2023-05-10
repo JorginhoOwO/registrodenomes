@@ -130,6 +130,8 @@ int main()
        	printf("\t1 Registrar paciente\n");
 	   	printf("\t2 Localizar paciente\n");
 		printf("\t3 Deletar paciente\n\n"); 
+		
+		printf("\t4 Sair do sistema!\n\n"); // Opcao de sair do sistema
 			
 	    printf("Opção:");// final do menu
 			
@@ -150,6 +152,12 @@ int main()
     	    case 3:
     	    Deletar();
 	        break;
+	        
+	        case 4:
+	        	printf("Obrigado por usar o sistema! ;)\n\n\n ");
+	        	printf("sistem byraffa");
+	        	return 0;
+	        	break;
 			
 			default:
 			printf("Essa opção nao existe!\n\n\n");
